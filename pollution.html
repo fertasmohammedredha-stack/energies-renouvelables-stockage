@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Analyse de la pollution environnementale">
+    <title>Pollution - Énergies Renouvelables & Stockage</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER - Navigation principale -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo placeholder -->
+                <div class="logo-container">
+                    <img src="logo.png" class="Logo">
+                </div>
+
+                <!-- Menu de navigation -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="pollution.html" class="nav-link active">Pollution</a></li>
+                    <li><a href="energies.html" class="nav-link">Énergies renouvelables</a></li>
+                    <li><a href="stockage.html" class="nav-link">Stockage</a></li>
+                </ul>
+
+                <!-- Bouton menu mobile -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main>
+        <!-- Titre de la page -->
+        <section class="page-header">
+            <div class="container">
+                <h1>La pollution environnementale</h1>
+                <p class="subtitle">Comprendre les enjeux et les impacts sur notre planète</p>
+            </div>
+        </section>
+
+        <!-- Section 1 : Types de pollution AVEC SLIDER -->
+        <section class="content-section">
+            <div class="container">
+                <div class="content-grid">
+                    <!-- SLIDER (6 images) -->
+                    <div class="slider-container">
+                        <div class="slider" id="pollutionSlider">
+                            <div class="slide active">
+                                <img src="polutiondelair.jpg" alt="Pollution de l'air"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="slide">
+                                <img src="pollutiondeleau.jpg" alt="Pollution de l'eau"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="slide">
+                                <img src="polutiondesol.jpg" alt="Pollution de la terre"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="slide">
+                                <img src="polutiondelalmre.jpg" alt="Pollution de la lumière"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="slide">
+                                <img src="pollutiondebruit.jpg" alt="Pollution du bruit"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="slide">
+                                <img src="polutiontermique.jpg" alt="Pollution thermique"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                        <!-- Indicateurs du slider -->
+                        <div class="slider-indicators" id="pollutionSliderIndicators"></div>
+                    </div>
+
+                    <!-- Texte -->
+                    <div class="text-content">
+                        <h2>Les différents types de pollution</h2>
+                        <p>
+                            La pollution environnementale regroupe l’ensemble des dégradations causées à notre
+                            environnement par les activités humaines.
+                            Elle se manifeste sous plusieurs formes. La pollution atmosphérique est liée aux émissions
+                            de gaz nocifs provenant
+                            principalement des transports, des industries et de la combustion des énergies fossiles.
+                            La pollution de l’eau résulte du rejet des déchets industriels, agricoles et domestiques
+                            dans les mers, les rivières et les nappes phréatiques.
+                            La pollution des sols est causée par l’utilisation excessive de pesticides, de produits
+                            chimiques et par l’accumulation des déchets solides.
+                            La pollution sonore, souvent sous-estimée, provient des transports, des activités
+                            industrielles et urbaines,
+                            tandis que la pollution lumineuse perturbe les écosystèmes nocturnes et la santé humaine.
+                        </p>
+                        Ces différentes formes de pollution ont des impacts directs et indirects sur la
+                        biodiversité,
+                        les écosystèmes naturels et la qualité de vie des populations.
+                        Elles contribuent à la dégradation des ressources naturelles, à la disparition d’espèces
+                        vivantes
+                        et à l’augmentation des risques sanitaires à long terme.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 : Sources d'énergie polluantes -->
+        <section class="content-section alternate">
+            <div class="container">
+                <div class="content-grid reverse">
+                    <div class="text-content">
+                        <h2>Les énergies fossiles et leurs impacts</h2>
+                        <p>
+                            Les énergies fossiles, telles que le charbon, le pétrole et le gaz naturel,
+                            constituent encore aujourd’hui la principale source d’énergie mondiale.
+                            Elles sont utilisées pour la production d’électricité, le chauffage,
+                            les transports et de nombreuses activités industrielles.
+                            Cependant, ces ressources sont limitées et leur exploitation entraîne de lourdes
+                            conséquences environnementales.
+                        </p>
+                        <p>
+                            La combustion des énergies fossiles libère de grandes quantités de dioxyde de carbone (CO₂),
+                            principal gaz responsable de l’effet de serre, ainsi que d’autres polluants atmosphériques
+                            comme les oxydes d’azote, le dioxyde de soufre et les particules fines.
+                            Ces émissions contribuent directement au réchauffement climatique,
+                            à la dégradation de la qualité de l’air et à l’augmentation des phénomènes climatiques
+                            extrêmes.
+                        </p>
+
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="energiesfosil.jpg" alt="energiesfosil"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 : Conséquences environnementales -->
+        <section class="content-section">
+            <div class="container">
+                <div class="content-grid">
+                    <div class="media-placeholder">
+                        <img src="Conséquences sur l'environnement.jpg" alt="Conséquences sur l'environnement"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="text-content">
+                        <h2>Conséquences sur l'environnement</h2>
+                        <p>
+                            L’une des conséquences majeures de la pollution environnementale est le réchauffement
+                            climatique.
+                            L’accumulation des gaz à effet de serre dans l’atmosphère modifie l’équilibre climatique
+                            naturel de la planète,
+                            entraînant une augmentation progressive des températures moyennes globales.
+                        </p>
+                        <p>
+                            Ce phénomène provoque de nombreux dérèglements environnementaux,
+                            tels que la fonte des glaciers, la montée du niveau des océans,
+                            la désertification de certaines régions et la multiplication des événements climatiques
+                            extrêmes
+                            comme les sécheresses, les inondations et les vagues de chaleur.
+                            Ces changements menacent les écosystèmes naturels et fragilisent la sécurité alimentaire
+                            mondiale.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 : Impact sur la santé -->
+        <section class="content-section alternate">
+            <div class="container">
+                <div class="content-grid reverse">
+                    <div class="text-content">
+                        <h2>Impact sur la santé publique</h2>
+                        <p>
+                            La pollution environnementale représente un risque majeur pour la santé publique.
+                            L’exposition prolongée à un air pollué est à l’origine de nombreuses maladies respiratoires,
+                            telles que l’asthme, les bronchites chroniques et les infections pulmonaires,
+                            en particulier chez les enfants et les personnes âgées.
+                        </p>
+                        <p>
+                            Outre les troubles respiratoires, la pollution est également associée
+                            à l’augmentation des maladies cardiovasculaires, des allergies et de certains cancers.
+                            Les polluants présents dans l’air, l’eau et les sols peuvent affecter le système
+                            immunitaire,
+                            réduire l’espérance de vie et détériorer de manière significative la qualité de vie des
+                            populations.
+                        </p>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="Impact sur la santé publique.jpg" alt="Impact sur la santé publique"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section EXEMPLE : Le cas de l'Algérie -->
+        <section class="case-study-section">
+            <div class="container">
+                <h2 class="section-title">Exemple : Le cas de l'Algérie</h2>
+
+                <div class="case-study-content">
+                    <!-- Images illustratives -->
+                    <div class="case-study-images">
+                        <div class="image-placeholder">
+                            <img src="Pollution urbaine en Algérie.jpeg" alt="pollution urbaine en Algérie"
+                                style="width: 100%; height:100%; object-fit:cover;">
+                        </div>
+                        <div class="image-placeholder">
+                            <img src="Industries algérienne.jpg" alt="Industries algérienne"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="image-placeholder">
+                            <img src="Transport et émissions.jpg" alt="Transport et émissions"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <!-- Texte descriptif -->
+                    <div class="case-study-text">
+                        <h3>Situation environnementale en Algérie</h3>
+                        <p>
+                            En Algérie, la pollution environnementale constitue un défi croissant,
+                            notamment dans les zones urbaines et industrielles.
+                            La croissance démographique, l’urbanisation rapide et la dépendance aux énergies fossiles
+                            ont contribué à l’augmentation des émissions polluantes au cours des dernières décennies.
+                        </p>
+                        <p>
+                            Les principales sources de pollution dans le pays sont les transports routiers,
+                            les activités industrielles, la production d’électricité à partir du gaz naturel,
+                            ainsi que la gestion insuffisante des déchets solides et des eaux usées.
+                            Dans certaines régions, la pollution de l’air et des sols affecte directement la santé des
+                            habitants
+                            et la qualité des ressources naturelles.
+                        </p>
+                        <p>
+                            Malgré ces défis, l’Algérie dispose d’importantes opportunités pour améliorer sa situation
+                            environnementale,
+                            notamment grâce à son fort potentiel en énergies renouvelables,
+                            en particulier l’énergie solaire.
+                            La transition vers des sources d’énergie propres et le développement de solutions de
+                            stockage
+                            peuvent jouer un rôle clé dans la réduction de la pollution et la protection de
+                            l’environnement.
+                        </p>
+                    </div>
+
+                    <!-- Statistiques -->
+                    <div class="statistics-grid">
+                        <div class="stat-card">
+                            <h4>Émissions de CO2</h4>
+                            <div class="stat-placeholder">≈ 170 millions de tonnes de CO₂ émises par an, principalement
+                                issues du secteur de l’énergie et des transports.
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <h4>Qualité de l'air</h4>
+                            <div class="stat-placeholder">Plusieurs grandes villes dépassent régulièrement les seuils
+                                recommandés de particules fines (PM10 et PM2.5).
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <h4>Consommation énergétique</h4>
+                            <div class="stat-placeholder">Plus de 98 % de l’électricité nationale est produite à partir
+                                du gaz naturel, indiquant une forte dépendance aux énergies fossiles.
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <h4>Sources d'énergie</h4>
+                            <div class="stat-placeholder">Moins de 3 % du mix énergétique provient actuellement des
+                                énergies renouvelables, malgré un fort potentiel solaire.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2026 – Environnement & Développement Durable ®</p>
+            <p>Fertas Mohammed Redha – Année universitaire 2025/2026</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
